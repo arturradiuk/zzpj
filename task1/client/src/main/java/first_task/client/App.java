@@ -47,5 +47,8 @@ public class App {
         System.out.println(person.toString());
 
 
+        Properties temp = new App().loadPropertiesFile("config.properties");
+//        temp.forEach((k, v) -> System.out.println(k +" : "+ v));
+
     }
 }
