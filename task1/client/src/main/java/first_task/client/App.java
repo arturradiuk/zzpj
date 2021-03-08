@@ -16,11 +16,13 @@ public class App
         final String email = "bob@example.com";
         final String name = "Bob";
         final String password = "123456";
+        final Integer age = 19;
 
         Person person = new Person();
         person.setEmail(email);
         person.setName(name);
         person.setPassword(password);
+        person.setAge(age);
 
         System.out.println(person.toString());
 
